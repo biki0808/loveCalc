@@ -2,7 +2,7 @@ function operation() {
   var name = prompt("Enter Your Name");
   var crush = prompt("Enter Your crush's Name");
 
-  if (name === "" && crush === "") {
+  if (name && crush) {
     if (name == " " || crush == " ") {
       alert("IT is not valid, please enter your name");
     } else if (name == "  " || crush == "  ") {
